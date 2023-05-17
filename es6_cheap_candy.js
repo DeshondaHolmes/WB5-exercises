@@ -34,7 +34,7 @@ for (let price of products) {
     }
   
 }
- console.log(someCandy.price);
+ console.log(someCandy.price)m;
 
 
 /*for (let i = 0; i < someCandy.length; i++) {
