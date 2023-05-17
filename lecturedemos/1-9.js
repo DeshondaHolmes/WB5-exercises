@@ -15,3 +15,6 @@ function isOver60(arrayValue) {
    else {
     console.log("No values over 60");
    }
+   
+
+   //sort methid requires help to sort numeric values 
