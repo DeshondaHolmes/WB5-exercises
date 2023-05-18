@@ -17,24 +17,35 @@ let products = [
     // price ranges
 ];
 
+let cheapCandy = [];
+
+let totalCountOfProducts = products.length;
+
 
 
 //for of loop
 
-let someCandy = products.filter(product => product.price <= 4.00);
+
+//this is a function 
+let cheapCandy = products.filter(currentProduct => currentProduct.price < 4.00);
 
 
 // in the code above, p is a variable that represents a 
 // value in the array people; it is used in the comparison 
 // as the find function looks at each value in the array
+
+
+
+
 for (let price of products) {
-    if (price.product == price) {
+    if (price.push == price) {
         return true;
+       
 
     }
   
 }
- console.log(someCandy.price)m;
+ console.log(someCandy);
 
 
 /*for (let i = 0; i < someCandy.length; i++) {
