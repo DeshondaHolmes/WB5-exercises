@@ -1,6 +1,4 @@
 "use strict";
-
-
 let products = [
     { product: "Gummy Worms", price: 5.79 },
     { product: "Plain M&Ms", price: 2.89 },
@@ -21,13 +19,10 @@ let cheapCandy = [];
 
 let totalCountOfProducts = products.length;
 
-
-
 //for of loop
 
-
 //this is a function 
-let cheapCandy = products.filter(currentProduct => currentProduct.price < 4.00);
+let someCandy = products.filter(currentProduct => currentProduct.price < 4.00);
 
 
 // in the code above, p is a variable that represents a 
